@@ -9,7 +9,7 @@ $(function(){
 		currentScreen += eachNumber;
 		screenVal.val(currentScreen);
 		if ($(this).val()== "C") {
-			screenVal("");
+			screenVal.val("");
 		}
 
 	});
@@ -18,5 +18,5 @@ $(function(){
 		event.preventDefault();
 		screenVal.val(eval(screenVal.val()));
 	});
-	
+
 });
